@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&display=swap">
+</head>
+
+<body>
+    <div id="formContainer" class="container">
+        <form>
+            <h1>Temperature Conversion</h1>
+
+            <label for="tempInput">Enter the value of Temperature:</label>
+            <input type="number" name="tempInput" id="tempInput">
+            <div class="radioBtnContainer">
+
+                <input type="radio" name="tempUnit" id="celsiusToFahrenheit">
+                <label for="celsiusToFahrenheit">Celsius to Fahrenheit</label> <br>
+                <input type="radio" name="tempUnit" id="celsiusToKelvin">
+                <label for="celsiusToKelvin">Celsius to Kelvin</label> <br>
+
+                <input type="radio" name="tempUnit" id="kelvinToCelsius">
+                <label for="kelvinToCelsius">Kelvin to Celsius</label> <br>
+
+                <input type="radio" name="tempUnit" id="kelvinToFahrenheit">
+                <label for="kelvinToFahrenheit">Kelvin to Fahrenheit</label> <br>
+
+                <input type="radio" name="tempUnit" id="fahrenheitToCelsius">
+                <label for="fahrenheitToCelsius">Fahrenheit to Celsius</label> <br>
+
+                <input type="radio" name="tempUnit" id="fahrenheitToKelvin">
+                <label for="fahrenheitToKelvin">Fahrenheit to Kelvin</label> <br>
+            </div>
+
+            <button type="button" id="submitBtn" class="submit">Submit</button>
+            <p id="result">Select Conversion radio button</p>
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
